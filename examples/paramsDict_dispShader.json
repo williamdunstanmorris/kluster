@@ -1,0 +1,7 @@
+{
+	"params" : [ "<param name = \"tex0\" type = \"int\" default = \"0\" />", "%" ],
+	"bindsV" : [ "<bind param = \"tex0\" program = \"vp\" />", "%" ],
+	"bindsF" : "%",
+	"uniformsV" : [ "uniform sampler2D tex0; \n", "%" ],
+	"uniformsF" : "%"
+}
